@@ -5,7 +5,7 @@ import java.util.List;
 import de.gerigx.swa.entity.PirateShip;
 
 public interface ShipController {
-        public PirateShip getShip(long ID);
+    public PirateShip getShip(long ID);
     public List<PirateShip> getAllShips();
 
     public PirateShip createShip(PirateShip pirateShip);
